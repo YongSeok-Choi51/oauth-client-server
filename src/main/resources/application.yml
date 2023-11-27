@@ -1,0 +1,15 @@
+
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-set-uri: http://localhost/well-knowns/jwks.json
+#      token-info-uri: http://localhost:8080/oauth2/introspect
+    client:
+      client-id: ys-oauth
+      client-secret: pion12345
+
+
+11st:
+  api-key: fc7fcce90d97e5ea1d9279d9c7b28246
